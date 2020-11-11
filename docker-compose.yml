@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  draw:
+    container_name: draw
+    image: jgraph/drawio
+    restart: always
+    ports:
+      - 8081:8080
+      - 8443:8443
